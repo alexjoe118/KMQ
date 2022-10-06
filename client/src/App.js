@@ -7,7 +7,7 @@ export default function App() {
   return (
     <div className='App'>
       <Header />
-
+      
       {isLoggedIn ? <LoggedInText /> : <LoggedOutText />}
     </div>
   )
